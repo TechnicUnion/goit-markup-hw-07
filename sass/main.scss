@@ -1,3 +1,5 @@
+@import "./fonts/fonts";
+
 @import "./utils/variables";
 @import "./base/reset";
 @import "./base/common";
@@ -10,3 +12,12 @@
 @import "./components/btn";
 @import "./components/container";
 @import "./components/section";
+@import "./components/modal";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/benefits";
+@import "./layout/offers";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
