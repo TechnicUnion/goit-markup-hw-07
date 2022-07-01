@@ -2,7 +2,7 @@
   padding-top: 0;
 }
 
-.offers-title {
+.offers__title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -10,18 +10,18 @@
   margin-bottom: 50px;
 }
 
-.offers-list {
+.offers__list {
   display: flex;
   margin-left: -30px;
 }
 
-.offers-item {
+.offers__item {
   position: relative;
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
 }
 
-.offers-text {
+.offers__text {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -31,11 +31,9 @@
   justify-content: center;
   align-items: center;
   background: rgba(47, 48, 58, 0.8);
-  b {
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--second-text-color);
-  }
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-text-color);
 }
