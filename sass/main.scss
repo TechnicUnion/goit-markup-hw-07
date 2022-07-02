@@ -1,26 +1,10 @@
-@import "./fonts/fonts";
+@import "./font-face/fonts";
 
 @import "./utils/variables";
 @import "./base/reset";
 @import "./base/common";
 @import "./utils/hidden";
 
-@import "./components/logo";
-@import "./components/soc-list";
-@import "./components/soc-item";
-@import "./components/soc-link";
-@import "./components/btn";
-@import "./components/container";
-@import "./components/section";
-@import "./components/modal";
+@import "./components/components";
 
-@import "./layout/header";
-@import "./layout/hero";
-@import "./layout/benefits";
-@import "./layout/offers";
-@import "./layout/team";
-@import "./layout/clients";
-@import "./layout/footer";
-
-@import "./layout/portfolio-btn-list";
-@import "./layout/portfolio-galery";
+@import "./layout/layout";
